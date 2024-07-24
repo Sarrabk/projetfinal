@@ -1,0 +1,424 @@
+body{
+     background-color:rgba(229, 30, 209, 0.094)
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family:serif;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+h3{
+     background-color:pink;
+     padding: 0px 20px;
+     text-align: center;
+     margin-top: 15px;
+     align-self:center
+}
+
+#espace{
+    color:palevioletred
+}
+
+header{
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: palevioletred;
+    flex-direction:column-reverse;
+}
+
+header h1{
+     background-color:palevioletred;
+     font-family:italic;
+     font-size:50px;
+     color:azure;
+     text-shadow: 0px 4px 1px purple, -1px 4px 1px plum
+}
+
+
+.about{
+    color:azure;
+    background-color:pink;
+    width:500px;
+    height:40px;
+}
+
+#texte1{
+    background-color: pink;
+    color:azure;
+    padding: 0 40px
+}
+
+
+.info1{
+    font-family: Arial, sans-serif
+}
+
+footer{
+    background-color:palevioletred;
+    padding: 0px 20px;
+    text-align: center;
+    align-self:flex-end;
+    margin: 0
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff; 
+}
+
+
+a:hover {
+    color:purple;
+} 
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding:0
+}
+
+.parent{
+    background-color:rgba(255, 171, 220, 0.329);
+    display:flex;
+    padding: 150px;
+    justify-content:space-between;
+    align-items:center
+}
+
+#img{
+    margin-top: -5%
+}
+
+#child1{
+    width: 430px;
+    height: 340px;
+    background-color: pink;
+    border: 2px solid palevioletred;
+    text-align: center;
+    align-self:center
+}
+
+#child2{
+    width: 430px;
+    height: 340px;
+    background-color: pink;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+.parent2{
+    background-color:rgba(255, 171, 220, 0.329);
+    padding: 150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+
+#child3{
+    width: 430px;
+    height: 340px;
+    background-color: pink;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center; 
+}
+
+#child4{
+    width: 430px;
+    height: 340px;
+    background-color: pink;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+.parent3{
+    background-color:rgba(255, 171, 220, 0.329);
+    padding: 150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    text-align:center
+}
+
+.parent3 h4{
+    color:white;
+    font-size:x-large
+}
+
+#child5{
+    width: 200px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+
+}
+
+#child6{
+    width: 200px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;    
+}
+
+#child7{
+    width: 200px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+.parent4{
+    background-color:rgba(255, 171, 220, 0.329);
+    padding: 150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.parent4 h4{
+    color:white;
+    font-size:x-large
+}
+
+#child8{
+    width: 200px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child9{
+    width: 200px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child10{
+    width: 200px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#flexbox2{
+    background-color:pink;
+    padding: 0px 20px;
+    text-align: center;
+    border:2px solid palevioletred;
+    margin-top: 15px;
+    align-self: center;
+}
+
+#tableau{
+    color:palevioletred
+}
+
+
+h4{
+    font-family:serif;
+}
+
+
+h5{
+     color:white
+}
+
+#img2{
+    margin-bottom:5%;
+}
+
+#img3{
+     margin-left: 150px;
+     margin-top: -100px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.cart {
+    margin-top: 0px;
+    background-color: rgba(255, 171, 220, 0.329);
+    text-decoration-color: white;
+}
+
+.cart h2{
+    background-color:rgba(255, 171, 220, 0.329);
+    font-family:italic;
+    font-size:20px;
+    color:azure;
+    text-shadow: 0px 4px 1px purple, -1px 4px 1px plum
+}
+
+.parent5{
+    background-color:rgba(255, 171, 220, 0.329);
+    padding: 150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.parent5 h4{
+    color:white;
+    font-size:x-large
+}
+
+#child11{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child12{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child13{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child14{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+.parent6{
+    background-color:rgba(255, 171, 220, 0.329);
+    padding: 150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.parent6 h4{
+    color:white;
+    font-size:x-large
+}
+
+#child15{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child16{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child17{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child18{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+.parent7{
+    background-color:rgba(255, 171, 220, 0.329);
+    padding: 150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.parent7 h4{
+    color:white;
+    font-size:x-large
+}
+
+#child19{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child20{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+#child21{
+    width: 200px;
+    height: 385px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    align-self:center;
+    text-align: center;
+}
+
+.parent8{
+    background-color:rgba(255, 171, 220, 0.329);
+    padding: 15px;
+    display:flex;
+    justify-content:space-between;
+
+}

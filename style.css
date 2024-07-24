@@ -1,0 +1,64 @@
+body{
+     background-color:blanchedalmond
+}
+
+h1{
+     background-color:palevioletred;
+     width:560px;
+     height:45px;
+     color:azure;
+     text-shadow: 0px 4px 1px purple,
+     -1px 4px 1px plum
+     ;
+}
+
+h3{
+     background-color: palevioletred;
+     width:105px;
+     height:25px;
+     padding:0 30px;
+     border: 3px dashed blue;
+}
+
+nav{
+    float:right;
+    padding:0 50px;
+    font-family: Arial, sans-serif
+}
+
+.about{
+    color:azure;
+    background-color:pink;
+    width:500px;
+    height:40px;
+}
+
+#texte1{
+    background-color: pink;
+    color:azure;
+    width: 480px;
+    padding: 0 40px
+}
+
+.texte2{
+    background-color:bisque
+}
+
+#img{
+    margin-left:47%
+}
+
+.info1{
+    font-family: Arial, sans-serif
+}
+
+footer {
+    background-color:bisque;
+    padding: 15px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    color:azure;
+    border-color:beige;
+
+}
